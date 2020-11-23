@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbos Irregulares</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <style>
+        .flag{
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <button class="btn btn-block btn-dark">
+                <img class="flag" src="https://images.vexels.com/media/users/3/163965/isolated/lists/5bb2c926d53cc59030477ec3ecb6d26a-icono-de-idioma-de-la-bandera-de-inglaterra.png">
+                    Verbos Irregulares 
+                <img class="flag" src="https://images.vexels.com/media/users/3/163965/isolated/lists/5bb2c926d53cc59030477ec3ecb6d26a-icono-de-idioma-de-la-bandera-de-inglaterra.png">
+            </button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"><button class="btn btn-block btn-primary">Elige el nivel</button></div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(10)">10</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(20)">20</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(30)">30</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(40)">40</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(50)">50</button></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(60)">60</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(70)">70</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(80)">80</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPagina(140)">140</button></div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function cambiaPagina(cantidadPreguntas){
+            window.location.href = "juego.html" + "#" + cantidadPreguntas
+        }
+
+    </script>
+</body>
+</html>

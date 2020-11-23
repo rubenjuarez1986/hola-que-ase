@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    
+    <style>
+        .caja {
+            max-height: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <button id="contador" class="btn btn-block btn-primary"><img src="https://acegif.com/wp-content/gifs/british-flag-12.gif" style="width: 20px;"/> <span id="contadorSpan">  </span> <img src="https://acegif.com/wp-content/gifs/british-flag-12.gif" style="width: 20px;"/></button>
+        </div>
+        <div class="row" id="copas">
+            <button id="trofeos" class="btn btn-block btn-info"></button>
+        </div>
+        <div class="row">
+            <button id="marcador" class="btn btn-block btn-info"></button>
+            <button id="castellano" class="btn btn-block btn-secondary">español</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button id="btn1" class="btn btn-block btn-secondary">tiempo1</button>
+            </div>
+            <div class="col">
+                <button id="btn2" class="btn btn-block btn-secondary">tiempo2</button>
+            </div>
+            <div class="col">
+                <button id="btn3" class="btn btn-block btn-secondary">tiempo3</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <button class="btn btn-block btn-dark" onclick="comprueba()" id="botonresultado">COMPROBAR</button>
+        </div>
+    </div>
+    <br><br><hr><br><br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+        <div class="col"><button id="volver" class="btn btn-primary" onclick="vuelve()">Return Menu</button></div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <script src="js/listaVerbos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
